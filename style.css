@@ -1,0 +1,260 @@
+.full-page{
+   width: 100%;
+   height: 196px;
+   background-color: #f8f8f8;
+   display: flex;
+   flex-direction: column;
+   
+}     
+
+/*o*/
+
+.header-box{
+   width: 100%;
+   height: 80px;
+   transform: rotate(0deg);
+   background: linear-gradient(180deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 100%);   
+         
+}
+
+.header-text{
+   /*width: 100%;*/
+   height: 48px;
+   position: fixed;
+   font-family: "Roboto-Regular", Helvetica;
+   font-weight: 400;
+   color: #7d7e82;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   margin: 16px;
+   background: linear-gradient(180deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 100%);
+}
+
+.brands{
+   display: flex;
+   justify-content: space-between;
+   
+   /*overflow-x: scroll;*/
+}
+
+.brands-row-one, .brands-row-two, .brands-row-three{
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 16px 16px 16px;
+   
+}
+
+.brand-units{
+   display: block;
+}
+
+.row-items{
+   display: flex;
+   justify-content: space-between;
+   width: 240px;
+   height: 72px;
+   background-color: #ffffff;
+   border-radius: 6px;
+   border: 1px solid;
+   border-color: #eaeaea;
+   padding-left: 16px;
+   align-items: center;
+   
+}
+
+.go{
+   margin: 16px 16px 16px 0px;
+   
+}
+
+.row-items-hide{
+      display: hidden;
+      width: 240px;
+}
+
+
+
+
+.brand-slide{
+   display: flex;
+   width: 204px;
+   height: 12px;
+   margin: 20px 56px;
+}
+
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+   text-align: center;
+}
+
+.active, .dot:hover {
+   background-color: #c90f9a;
+}
+
+.button{
+   display: none;
+}
+
+.show-button, .hide-button{
+   display: flex;
+   align-items: center;
+   padding-right: 12px;
+   border: none;
+   margin-left: 7px;
+   background-color: #fcf9f9;
+   font-family: "Roboto-Medium", Helvetica;
+   font-weight: 500;
+   color: #1b1c21;
+   font-size: 16px;
+   letter-spacing: -0.2px;
+   line-height: 24px;
+   white-space: nowrap;
+   
+}
+
+.hide-button:hover, .show-button:hover {
+  background-color: rgba(251,20,255,0.8);
+  
+}
+
+body{
+   width: 100%;
+   height: 234px;
+   background-color: #11060e;
+  
+}
+
+body.open{
+   max-height: 412px;
+}
+
+
+@media (min-width:768px) and (max-width:1119px){
+   .full-page{
+      width: 100%;
+      height: 322px;
+   }
+  
+   .brands{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+   
+   }
+
+   .header-text{
+      height: 56px;
+      margin: 16px 0px 16px 24px;
+   
+   }
+
+   
+
+   .brands-row-one, .brands-row-two, .brands-row-three{
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 24px 8px 24px;
+   
+      
+   }
+
+   .row-three{
+      display: none;
+   }
+
+   .row-items{
+   
+      width: 224px;
+            
+   }
+
+   .header-text{
+      
+      height: 24px;
+   }
+
+   .show-button, .hide-button{
+      margin-left: 13px;
+   }
+   
+  
+
+   /* The dots/bullets/indicators */
+   .dot {
+      display: none;
+   }
+
+   .row-items-hide{
+      display: hidden;
+      width: 224px;
+}
+
+.button{
+   display: flex;
+}
+
+.brands-row-three{
+   display: none;
+}
+   
+
+}
+
+@media (min-width:1120px)  {
+    .full-page{
+      width: 100%;
+      height: 322px;
+      padding-bottom: 34px;
+   }
+
+    .brands{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+      
+   }
+
+   .header-text{
+      margin: 16px 0px 16px 32px;
+   }
+
+   .row-items{
+      width: 240px;
+                
+   }
+
+   .brands-row-one, .brands-row-two, .brands-row-three{
+      
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 32px 8px 32px;
+   }
+
+   .brands-row-three{
+      display: none;
+   }
+
+    .show-button, .hide-button{
+      margin-left: 20px;
+   }
+
+   
+   .dot {
+      display: none;
+   }
+
+   .button{
+   display: flex;
+}
+
+}

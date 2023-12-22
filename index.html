@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript in browser</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="full-page">
+    
+      <header class="header">
+        <div class="header-box">
+        <p class="header-text">REPAIR OF EQUIPMENT FROM VARIOUS BRANDS</p>
+        </div>
+      </header>
+      <main >
+        <div class="brands">
+          <div class="brands-row-one">
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="lenovo" src="img/lenovo.png" alt="lenovo">
+                <img class="go" src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="samsung" src="img/samsung.png" alt="samsung">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="apple"  src="img/apple.png" alt="apple">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="viewSonic"  src="img/viewSonic.png" alt="viewSonic">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+          </div>  
+
+          <div class="brands-row-two">
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="bosch"  src="img/bosch.png" alt="bosch">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="hp"  src="img/hp.png" alt="hp">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="acer"  src="img/acer.png" alt="acer">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="sony"  src="img/sony.png" alt="sony">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+          </div> 
+
+          <div class="brands-row-three" id="brands-row-three">
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="lenovo"  src="img/lenovo.png" alt="lenovo">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="samsung"  src="img/samsung.png" alt="samsung">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+
+            <div class="brand-units">
+              <div class="row-items">
+                <img class="apple"  src="img/apple.png" alt="apple">
+                <img class="go"  src="img/go.svg" alt="direction">
+              </div>
+            </div>
+            <div class="row-items-hide">
+              
+            </div>
+
+          </div> 
+        </div>
+        <div class="button">    
+
+            <div>
+              <button id="show-button" class="show-button" onclick=changebtn();>
+                <img id="show-button__img" class="show-button__img" src="img/showall.svg" alt="">
+                <h2 id="show-buttonn">
+                  Show All
+                </h2>
+                
+              </button>
+            </div> 
+        </div> 
+        
+        <div class="brand-slide">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span>
+          <span class="dot" onclick="currentSlide(11)"></span>
+        </div>
+          
+      </main>
+      
+      <script src="javascript.js"></script>
+  </body>
+</html>
