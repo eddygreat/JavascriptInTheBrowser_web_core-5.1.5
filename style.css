@@ -44,6 +44,7 @@
 
  .mobile-view{
       margin: 0px 16px 16px 16px;
+      display: flex;
   
 }
 
