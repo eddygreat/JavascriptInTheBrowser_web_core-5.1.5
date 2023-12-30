@@ -6,3 +6,5 @@
 
 # For the Show all button to work for the first time, it has to be dOuble clicked, clicking the 
 # button subsequently executes the needed function.
+# kindly view the page on github page using the link below
+# https://eddygreat.github.io/JavascriptInTheBrowser_web_core-5.1.5/
