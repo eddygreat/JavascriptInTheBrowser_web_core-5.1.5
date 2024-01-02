@@ -2,8 +2,6 @@
 let slideIndex = 1;
 
 
-
-
 // Create a MediaQueryList object
 // for controlling the display in hiding and showing brand elemeents
 var x = window.matchMedia("(min-width: 768px)")
@@ -30,7 +28,7 @@ document.getElementById('show-button').onclick = function () {
 }
 
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 10,
+  spaceBetween: 24,
   slidesPerView: 1.2,
   freeMode: true,
      
@@ -39,31 +37,22 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
       enabled: true
     },
-    breakpoints: {
-      
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 24,
-        //freeMode: true,
-          scrollbar: {
-            el: ".swiper-scrollbar",
-            hide: true,
-                        
+      breakpoints: {
+        
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 24,
+          freeMode: true,
+          
+          
+        
         },
-         
-       
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 32,
-        scrollbar: {
-            el: ".swiper-scrollbar",
-            enabled: false,
-                        
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 32,
+                
         },
-      
       },
-    },
   
 });
 
