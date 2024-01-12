@@ -8,4 +8,4 @@
 # button subsequently executes the needed function.
 # kindly view the page on github page using the link below
 # https://eddygreat.github.io/JavascriptInTheBrowser_web_core-5.1.5/
-# Incase of any malfunction while moving from one page size to another, kindly refresh page to correct such malfunction.
+# Incase of any improper display while moving from one screen size to another, kindly refresh the page to view the display properly.
