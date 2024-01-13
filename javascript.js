@@ -40,9 +40,13 @@ var swiper = new Swiper(".mySwiper", {
       breakpoints: {
         
         768: {
+          el: ".swiper-scrollbar",
           slidesPerView: 3,
           spaceBetween: 24,
-          freeMode: true,
+          freeMode: false,
+          enabled: false
+          
+
           
           
         

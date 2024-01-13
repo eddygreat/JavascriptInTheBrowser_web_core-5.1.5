@@ -4,19 +4,33 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-html {
+html, body {
   position: relative;
-  margin: 0px;
+  width: 100%;
+  
   overflow: -moz-hidden-unscrollable;
-  min-width: 320px;
-  max-width: 1280px;
+   
   
 }
 
-body{
+
+
+.full-page{
+
   min-width: 320px;
   max-width: 1280px;
+
 }
+
+@media (min-width:1300px){
+    html, body{
+      margin-left: 1.3%;
+      justify-content: center;
+     
+   }
+}
+
+
 /* a blue color as a generic focus style */
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
